@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.content-bg {
+  max-width: 900px;
+}
+
+.bg-red {
+  background-color: #c80203;
+}
+
+.text-red {
+  color: #c80203;
+}
+
+.bg-lightblue {
+  background-color: rgb(217, 237, 244);
+}
+
+.border-blue {
+  /* --bs-border-opacity: 1; */
+  border-color: lightblue !important;
+}
+
+.navbar .navbar-brand {
+  color: #c80203;
+}
+
+.navbar .navbar-brand:hover {
+  color: #c80203 !important;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: green !important;
+}
+
+.backdrop {
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+}
